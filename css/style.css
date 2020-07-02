@@ -157,6 +157,7 @@
 /* ELEMENT STYLE */
 html,body{
     font-family: "Nunito Sans", "Proxima Nova", sans-serif;
+    overflow: hidden;
 }
 
 header{
@@ -219,6 +220,10 @@ nav{
     font-family: "Nunito Sans";
 }
 
+.navbar-nav{
+    padding-right: 1.5rem;
+}
+
 .nav-item{
     padding: 0 1rem;
 }
@@ -239,6 +244,12 @@ nav{
     color: var(--text-color) !important;
 }
 
+.nav-link--button{
+    margin-right: 7rem;
+}
+
+
+/* HERO SECTION  */
 .hero{
     text-align: center;
 }
@@ -496,6 +507,7 @@ footer .row{
     }
     .bk-1{
         position: absolute;
+        padding-top: 30rem;
         padding-top: 20rem;
         padding-left: 13rem;
         padding-right: 15rem;
