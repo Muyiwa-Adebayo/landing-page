@@ -189,19 +189,17 @@ h1{
 
 
 /* HEADER STYLE */
-/* .template-img{
-    background-image: url("../img/bk-1.png"),
-    url("../img/bk-2.png"), url("../img/bk-3.png"),
-    url("../img/bk-4.png"), url("../img/bk-5.png"),
-    url("../img/bk-6.png");
-    background-position: left 24.33% right 59.13% top 37.2% bottom 23.26%;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    background-size: 15%, 15%, 15%, 15%, 15%, 15%;
-    transform: rotate(144.74deg), rotate(54.36deg), rotate(53.54deg),
-    rotate(-34.06deg), rotate(-33.41deg) rotate(-124.06deg);
-    max-height: 100vh;
-    overflow: auto;
-}*/
+.bk-1{
+    position: absolute;
+    width: 100vw;
+    height: 92.5vh;
+    background: url('../img/Group\ 33.png') no-repeat center center/cover;
+    z-index: 1;
+}
+
+nav{
+    z-index: 5;
+}
 
 .navbar{
     padding-top: 2rem;
@@ -492,6 +490,22 @@ footer .row{
 
 /* MOBILE STLYE  */
 @media (max-width: 576px){
+    header{
+        position: relative;
+        overflow: hidden;
+    }
+    .bk-1{
+        position: absolute;
+        padding-top: 20rem;
+        padding-left: 13rem;
+        padding-right: 15rem;
+        margin-top: 490px;
+        width: 65px;
+        height: 100px;
+        background: url('../img/Component\ 1.png') no-repeat center center/cover;
+        z-index: 1;
+    }
+
     .navbar-collapse{
         background: var(--secondary-color) !important;
         padding: 2rem 1rem;
@@ -528,7 +542,9 @@ footer .row{
         color: var(--secondary-color);
     }
     .hero{
+        position: relative;
         text-align: center;
+        z-index: 5 !important;
     }
     
     .hero h1{
