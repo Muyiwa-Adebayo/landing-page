@@ -153,6 +153,7 @@
 /* ELEMENT STYLE */
 html,body{
     font-family: "Nunito Sans", "Proxima Nova", sans-serif;
+    scroll-behavior: smooth;
 }
 
 header{
