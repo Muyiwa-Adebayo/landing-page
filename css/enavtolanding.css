@@ -98,10 +98,6 @@
     font-size: 1.2rem;
 }
 
-.checker{
-    border: 2px var(--primary-color) solid;
-}
-
 .hr-dark{
     margin: auto;
     width: 12rem;
@@ -157,7 +153,6 @@
 /* ELEMENT STYLE */
 html,body{
     font-family: "Nunito Sans", "Proxima Nova", sans-serif;
-    overflow: hidden;
 }
 
 header{
